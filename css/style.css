@@ -601,9 +601,7 @@ p + .btn_wr {
   }
 }
 /*==================    well1     ======================*/
-.container{
-/*	width: 60%;*/
-}
+
 
 blockquote .box_cnt__no-flow {
   padding-left: 30px;
@@ -759,9 +757,10 @@ table tr:nth-child(even) {
 }
 
 /*==================    Info Box   ======================*/
-.container_Info_Box{
+.Info_Box{
 	display: flex;
-/*	width: 100%;*/
+	flex-flow: row wrap;
+
 }
 .grid:first-child{
 	padding: 20px;
@@ -815,7 +814,7 @@ table tr:nth-child(even) {
 .info-box dl + hr {
   margin-top: 25px;
 }
-@media (max-width:6 80px ){
+@media (max-width:880px ){
 	.grid{
 		width: 100%;
 	}
@@ -1374,13 +1373,3 @@ footer .copyright a:hover {
   }
 }
 
-
-
-.grid {
-	
-}
-
-.container {
-	display: flex;
-	flex-flow: row wrap;
-}
