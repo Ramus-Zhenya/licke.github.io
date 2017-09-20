@@ -200,7 +200,7 @@
   }
   .camera_caption [class*="grid_"] {
     margin: 0;
-    width: 100%;
+/*    width: 100%;*/
     text-align: center;
     padding: 0 50px;
     -moz-box-sizing: border-box;
@@ -220,6 +220,7 @@
     font-size: 42px;
     line-height: 42px;
     padding: 0 20px;
+/*	   width: 100%;*/
   }
 }
 @media (max-width: 479px) {
