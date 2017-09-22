@@ -2,12 +2,13 @@
 =========================================================*/
 /*================   Custom Layout&Styles   =====================*/
 .camera_caption [class*="grid_"] {
-  color: #05948b;
+  color: #434547;
 }
 
 .camera_next,
 .camera_prev {
-  color: #05948b;
+  color: #434547;
+
 }
 .camera_next:hover,
 .camera_prev:hover {
@@ -24,13 +25,13 @@
 }
 
 .owl-dots .owl-dot:hover, .owl-dots .owl-dot.active {
-  background: #00b9ab;
+  background: #434547;
 }
 
 /* style.scss
 =========================================================*/
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-  color: #00A99D;
+  color: #434547;
 }
 
 hr {
@@ -38,18 +39,18 @@ hr {
 }
 
 .hr {
-  border-bottom: 3px solid #00A99D;
+  border-bottom: 3px solid #434547;
 }
 
 .brand_name {
-  color: #05948b;
+  color: #434547;
 }
 
 .bg-primary {
-  background: #00A99D;
+  background: #434547;
 }
 .bg-primary .icon {
-  color: #00A99D;
+  color: #434547;
 }
 .bg-primary .product-list hr {
   border-bottom: 0;
@@ -60,7 +61,7 @@ hr {
 }
 
 .icon {
-  background: #00A99D;
+  background: #434547;
 }
 
 .icon2 {
@@ -70,62 +71,62 @@ hr {
 
 .btn:hover,
 .btn2:hover {
-  background: #008d84;
+  background: #1f1f1f;
 }
 .btn:active,
 .btn2:active {
-  background: #005a54;
+  background: #1f1f1f;
 }
 
 .btn {
-  background: #00A99D;
+  background: #434547;
 }
 
 .btn2 {
-  color: #047972;
+  color: #434547;
   background: #eaeaea;
 }
 
 .banner li {
-  background: #00A99D;
+  background: #434547;
 }
 .banner li:nth-child(1) {
-  background: #047972;
+  background: #434547;
 }
 .banner li:nth-child(2) {
-  background: #048880;
+  background: #434547;
 }
 .banner li:nth-child(3) {
-  background: #05948b;
+  background: #434547;
 }
 
 .product-list li .box:hover .icon {
-  background: #008d84;
+  background: #434547;
 }
 
 blockquote q:before {
-  color: #00A99D;
+  color: #434547;
 }
 blockquote cite {
-  color: #00A99D;
+  color: #434547;
 }
 
 .marked-list li {
-  color: #00A99D;
+  color: #434547;
 }
 .marked-list li + li {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #434547;
 }
 .marked-list a:hover {
   color: #777777;
 }
 
 .contact-list a:hover {
-  color: #00A99D;
+  color: #434547;
 }
 
 .contact-list2 h3 {
-  color: #047972;
+  color: #434547;
 }
 
 table {
@@ -139,7 +140,7 @@ table tr:nth-child(even) {
 }
 
 .info-box {
-  background: #00A99D;
+  background: #434547;
 }
 
 .info dt {
@@ -150,30 +151,30 @@ header a[href^="callto:"] {
   color: #777777;
 }
 header a[href^="callto:"]:before {
-  color: #00b9ab;
+  color: #fff;
 }
 
 main p + a[href^="mailto:"] {
-  color: #00A99D;
+  color: #fff;
 }
 
 footer {
   background: whitesmoke;
 }
 footer section + section .container {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #434547;
 }
 
 .sf-menu > li > a {
-  color: #05948b;
+  color: #fff;
 }
 .sf-menu > li.sfHover > a, .sf-menu > li > a:hover {
-  background: #05948b;
-  border-right: 1px solid #04837b;
+  background: #1f1f1f;
+  border-right: 1px solid #1f1f1f;
 }
 .sf-menu > li.active > a {
-  background: #05948b;
-  border-right: 1px solid #04837b;
+  background: #1f1f1f;
+  border-right: 1px solid #1f1f1f;
 }
 
 .sf-menu ul > li > a {
@@ -195,5 +196,5 @@ footer section + section .container {
 }
 
 a[href^="callto:"]:hover {
-  color: #00A99D;
+  color: #434547;
 }

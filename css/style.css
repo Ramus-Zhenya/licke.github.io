@@ -1215,7 +1215,7 @@ table tr:nth-child(even) {
   }
 }
 .primary {
-  color: #62bfe6;
+  color: #434547;
 }
 
 /*========================================================
@@ -1288,14 +1288,15 @@ main p + a[href^="mailto:"] {
   display: inline-block;
   margin-top: 10px;
   font-size: 16px;
-  color: #62bfe6;
+  color: #434547;
 }
 main p + a[href^="mailto:"]:hover {
   text-decoration: underline;
 }
 
 a[href^="callto:"]:hover {
-  color: #62bfe6;
+	color: #434547;
+/*  color: #62bfe6;*/
 }
 
 .video {
@@ -1354,6 +1355,10 @@ a[href^="callto:"]:hover {
 
 .ins5 {
   padding-top: 44px;
+}
+
+#vk_groups{
+	width: 100%;
 }
 
 /*========================================================
