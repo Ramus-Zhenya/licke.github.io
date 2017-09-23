@@ -773,10 +773,15 @@ table tr:nth-child(even) {
 .Info_Box{
 	display: flex;
 	flex-flow: row wrap;
+	
 
 }
 .grid:first-child{
-	padding: 20px;
+	padding: 20px 20px 20px 0 ;
+/*	width: 70%;*/
+}
+.grid:last-child{
+/*	width: 30%;*/
 }
 .grid{
 	width: 50%;
@@ -827,7 +832,7 @@ table tr:nth-child(even) {
 .info-box dl + hr {
   margin-top: 25px;
 }
-@media (max-width:880px ){
+@media (max-width:1080px ){
 	.grid{
 		width: 100%;
 	}
