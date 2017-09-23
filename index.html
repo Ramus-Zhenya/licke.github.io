@@ -44,22 +44,22 @@
 <form id="test-form" class="mfp-hide white-popup-block">
 	<h1>Form</h1>
 	<fieldset style="border:0;">
-		<p>Lightbox has an option to automatically focus on the first input. It's strongly recommended to use <code>inline</code> popup type for lightboxes with form instead of <code>ajax</code> (to keep entered data if the user accidentally refreshed the page).</p>
+<!--		<p>Lightbox has an option to automatically focus on the first input. It's strongly recommended to use <code>inline</code> popup type for lightboxes with form instead of <code>ajax</code> (to keep entered data if the user accidentally refreshed the page).</p>-->
 		<ol>
 			<li>
-				<label for="name">Name</label>
-				<input id="name" name="name" type="text" placeholder="Name" required="">
+				<label for="name"></label>
+				<input id="name" name="name" type="text" placeholder="Как вас завут" required="">
 			</li>
 			<li>
-				<label for="email">Email</label>
+				<label for="email"></label>
 				<input id="email" name="email" type="email" placeholder="example@domain.com" required="">
 			</li>
 			<li>
-				<label for="phone">Phone</label>
-				<input id="phone" name="phone" type="tel" placeholder="Eg. +447500000000" required="">
+				<label for="phone"></label>
+				<input id="phone" name="phone" type="tel" placeholder="Ваш номер тел." required="">
 			</li>
 			<li>
-				<label for="textarea">Textarea</label><br>
+				<label for="textarea">сообщение</label><br>
 				<textarea id="textarea"></textarea>
 			</li>
 		</ol>
@@ -142,6 +142,7 @@
                 <h3>Global<br/>research</h3>
                 <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><a href="#"></a>
               </li>
+             
               <li>
                 <div class="fa">
                 	<img src="images/dlya_bloka_2.png" alt="">
@@ -149,6 +150,7 @@
                 <h3>Creative<br/>ideas</h3>
                 <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><a href="#"></a>
               </li>
+           
               <li>
                 <div class="fa">
                 	<img src="images/dlya_bloka_3.png" alt="">
@@ -177,10 +179,9 @@
                   <div class="box_cnt__no-flow">
                     <h3><a href="#">Incididunt ut labore et dolore</a></h3>
                     <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
-              
-              
+                  </div> <hr>
               </li>
+              
                <li data-wow-delay="0.2s" class="product-list_item box wow fadeInRight">
                   <div class="box_aside">
                     <div class="icon fa-calendar-o"></div>
@@ -188,11 +189,9 @@
                   <div class="box_cnt__no-flow">
                     <h3><a href="#">Incididunt ut labore et dolore</a></h3>
                     <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
-           
-                
-              </li>
-              
+                  </div>  <hr>
+              	 </li>
+             
               <li data-wow-delay="0.3s" class="product-list_item box wow fadeInRight">
                   <div class="box_aside">
                     <div class="icon fa-group"></div>
@@ -202,7 +201,7 @@
                     <a href="#">Incididunt ut labore et dolore</a>
                     </h3>
                     <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
+                  </div><hr>
                
                </li>
                
@@ -213,7 +212,7 @@
                   <div class="box_cnt__no-flow">
                     <h3><a href="#">Incididunt ut labore et dolore</a></h3>
                     <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
+                  </div><hr>
                
               </li>
                <li  data-wow-delay="0.5s" class="product-list_item box wow fadeInRight">
@@ -223,7 +222,7 @@
                   <div class="box_cnt__no-flow">
                     <h3><a href="#">Incididunt ut labore et dolore</a></h3>
                     <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
+                  </div><hr>
                
               </li>
                <li  data-wow-delay="0.5s" class="product-list_item box wow fadeInRight">
@@ -233,7 +232,7 @@
                   <div class="box_cnt__no-flow">
                     <h3><a href="#">Incididunt ut labore et dolore</a></h3>
                     <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
+                  </div><hr>
                
               </li>
             </ul>
@@ -250,10 +249,14 @@
 
               <div class="grid">
                 <div class="info-box">
+                
+               
+<!--                <div class="grid_3">-->
                 <div id="vk_groups"></div>
 <script type="text/javascript">
-VK.Widgets.Group("vk_groups", {mode: 0, width: "220", height: "400"}, 1);
+VK.Widgets.Group("vk_groups", {mode: 0, width: "220px", height: "400"}, 1);
 </script>
+<!--</div>-->
 <!--
                   <h2 class="fa-comment">инструкторы</h2>
                   <hr>

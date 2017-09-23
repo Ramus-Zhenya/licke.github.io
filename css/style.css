@@ -113,7 +113,7 @@ hr {
 }
 
 .hr {
-  border-bottom: 3px solid #62bfe6;
+  border-bottom: 3px solid #333;
 }
 
 @media (max-width: 767px) {
@@ -170,7 +170,7 @@ h3 + p {
 }
 
 * + hr {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .row + p {
@@ -231,17 +231,23 @@ p + .btn_wr {
   font-weight: 700;
   font-size: 55px;
   line-height: 62px;
-  color: #5ab7de;
+/*  color: #5ab7de;*/
   vertical-align: bottom;
 }
 .popup-with-form{
 	float: right;
 /*	clear:none;*/
 /*	margin: auto;*/
-	background: #62bfe6;
-	color: #fff;
+/*	background: #62bfe6;*/
+	border: 1px solid #333;
+	color: #333;
 	border-radius: 50px;
 	padding: 3px 17px ;
+}
+.popup-with-form:hover{
+	color: #fff;
+	background: #333;
+	transition: .4s;
 }
 .white-popup-block {
 
@@ -272,13 +278,13 @@ p + .btn_wr {
 /*==================  Backgrounds  ======================*/
 .bg-primary {
   color: #fff;
-  background: #62bfe6;
+/*  background: #62bfe6;*/
 }
 .bg-primary h2 {
   color: #fff;
 }
 .bg-primary .icon {
-  color: #62bfe6;
+/*  color: #62bfe6;*/
   background: #fff;
 }
 .bg-primary .product-list li .box:hover .icon {
@@ -571,6 +577,7 @@ p + .btn_wr {
 .product-list {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: space-between;
 /*	width: 60%;*/
 	margin:0 auto;
 }
@@ -578,7 +585,7 @@ p + .btn_wr {
 	padding: 0 10px
 }
 .product-list_item {
-	flex: 1 1 calc(50%);
+	flex: 0 1 calc(48%);
 	
 }
 .box_aside{
@@ -868,13 +875,13 @@ table tr:nth-child(even) {
 }
 .sf-menu > li.sfHover > a, .sf-menu > li > a:hover {
   color: #fff;
-  background: #5ab7de;
-  border-right: 1px solid #4bb0db;
+/*  background: #5ab7de;*/
+/*  border-right: 1px solid #4bb0db;*/
 }
 .sf-menu > li.active > a {
   color: #fff;
-  background: #5ab7de;
-  border-right: 1px solid #4bb0db;
+/*  background: #5ab7de;*/
+/*  border-right: 1px solid #4bb0db;*/
 }
 
 .sf-menu ul {
@@ -1244,7 +1251,8 @@ header a[href^="callto:"]:before {
   top: -4px;
   left: -44px;
   font-size: 34px;
-  color: #6bc7ed;
+/*  color: #6bc7ed;*/
+	color: #333;
 }
 header a[href^="callto:"]:hover {
   color: map;
@@ -1311,7 +1319,21 @@ a[href^="callto:"]:hover {
   width: 100%;
   height: 100%;
 }
-
+.play{
+	position: relative;
+}
+.play:after{
+	content: "gd";
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top:-10px;
+	left:10px;
+	background-image: url(../images/play.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 1;
+}
 /*==================      Well     ======================*/
 .well_ins1 {
 /*  padding-top: 50px;*/
@@ -1342,7 +1364,7 @@ a[href^="callto:"]:hover {
 }
 
 .ins2 {
-  padding-bottom: 52px;
+/*  padding-bottom: 52px;*/
 }
 
 .ins3 {
@@ -1366,7 +1388,7 @@ a[href^="callto:"]:hover {
 =========================================================*/
 footer {
   color: #888a8c;
-  background: #434547;
+/*  background: #434547;*/
 }
 footer section + section .container {
   border-top: 1px solid #888a8c;
@@ -1383,4 +1405,41 @@ footer .copyright a:hover {
     text-align: center;
   }
 }
+
+
+.float{
+	position: relative;
+	overflow: hidden;
+}
+.float_tth {
+	position: absolute;
+	width: 100%;
+	font-size: 16px;
+	background: rgba(0,0,0, .6);
+	color: #fff;
+	height: 100%;
+	padding: 10px 15px;
+    box-sizing: border-box;
+	transition: .4s;
+	top:100%;
+}
+.float_tth > pre{
+	line-height: 18px;
+	font-size: 12px;
+}
+.float:hover .float_tth{
+	top:0;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
 
