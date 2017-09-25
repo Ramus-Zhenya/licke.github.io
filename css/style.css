@@ -6,7 +6,8 @@
 					  Main Styles
 =========================================================*/
 body {
-  background: #f5f5f5;
+background-image: url(../images/SAJT_LAJK_kopia.jpg);
+/*  background: #f5f5f5;*/
   color: #56585a;
   font: 400 14px/28px "Roboto", sans-serif;
   -webkit-text-size-adjust: none;
@@ -832,10 +833,13 @@ table tr:nth-child(even) {
 .info-box dl + hr {
   margin-top: 25px;
 }
-@media (max-width:1080px ){
+@media (max-width:780px ){
 	.grid{
 		width: 100%;
 	}
+}
+#vk_groups{
+	width: 100%;
 }
 /*==================     Info     ======================*/
 .info dt {
@@ -1236,6 +1240,7 @@ table tr:nth-child(even) {
 header {
   padding-top: 24px;
   background: #fff;
+	
 }
 header .brand {
   float: left;
@@ -1294,7 +1299,7 @@ header a[href^="callto:"] + p {
 =========================================================*/
 main {
   display: block;
-  background: #fff;
+/*  background: #fff;*/
 }
 
 main p + a[href^="mailto:"] {
@@ -1312,6 +1317,7 @@ a[href^="callto:"]:hover {
 /*  color: #62bfe6;*/
 }
 
+/*
 .video {
   position: relative;
   width: 100%;
@@ -1324,21 +1330,8 @@ a[href^="callto:"]:hover {
   width: 100%;
   height: 100%;
 }
-.play{
-	position: relative;
-}
-.play:after{
-	content: "gd";
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	top:-10px;
-	left:10px;
-	background-image: url(../images/play.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index: 1;
-}
+*/
+
 /*==================      Well     ======================*/
 .well_ins1 {
 /*  padding-top: 50px;*/
@@ -1386,9 +1379,7 @@ a[href^="callto:"]:hover {
   padding-top: 44px;
 }
 
-#vk_groups{
-	width: 100%;
-}
+
 
 /*========================================================
 					 FOOTER  Styles
@@ -1438,7 +1429,9 @@ footer .copyright a:hover {
 	top:0;
 	
 }
-
+.brand_name .fa-thumbs-o-up{
+text-shadow: -3px -3px 1px #999;
+}
 
 
 

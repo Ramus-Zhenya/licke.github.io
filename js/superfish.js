@@ -282,7 +282,7 @@
         fakeBg: false,
         fakeBgLimiter: '.page',
         pathLevels: 1,
-        delay: 800,
+        delay: 1800,
         animation: {height: 'show'},
         animationOut: {height: 'hide'},
         speed: 'normal',
