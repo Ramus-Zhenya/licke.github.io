@@ -223,7 +223,7 @@ p + .btn_wr {
 =========================================================*/
 /*==================     Brand     ======================*/
 .brand {
-  display: inline-block;
+/*  display: inline-block;*/
 }
 .brand_name {
   display: inline-block;
@@ -235,10 +235,10 @@ p + .btn_wr {
   vertical-align: bottom;
 }
 .popup-with-form{
-	float: right;
+/*	float: right;*/
 /*	clear:none;*/
 /*	margin: auto;*/
-	background: #62bfe6;
+/*	background: #62bfe6;*/
 	color: #fff;
 	border-radius: 50px;
 	padding: 3px 17px ;
@@ -777,7 +777,7 @@ table tr:nth-child(even) {
   margin-top: 7px;
   padding: 30px 30px 25px;
   color: #fff;
-  background: #57aacd;
+  background: #434547;
 }
 .info-box dt,
 .info-box dd {
@@ -1220,7 +1220,7 @@ header {
   background: #fff;
 }
 header .brand {
-  float: left;
+/*  float: left;*/
 }
 header a[href^="callto:"],
 header .container > p {
@@ -1251,10 +1251,10 @@ header a[href^="callto:"] + p {
     text-align: center;
   }
   header .brand, header a[href^="callto:"], header .container > p {
-    float: none;
+/*    float: none;*/
   }
   header .brand {
-    display: block;
+/*    display: block;*/
   }
   header .brand_slogan {
     padding-left: 0;

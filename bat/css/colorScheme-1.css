@@ -56,7 +56,7 @@ hr {
 }
 
 .bg-secondary {
-  background: whitesmoke;
+/*  background: whitesmoke;*/
 }
 
 .icon {
@@ -140,7 +140,7 @@ table tr:nth-child(even) {
 }
 
 .info-box {
-  background: #00A99D;
+/*  background: #00A99D;*/
 }
 
 .info dt {

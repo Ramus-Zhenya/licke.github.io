@@ -6,7 +6,7 @@
 					  Main Styles
 =========================================================*/
 body {
-background-image: url(../images/SAJT_LAJK_kopia.jpg);
+background-image: url(../images/FON_Layk.jpg);
 /*	background-size: cover;*/
 	background-attachment: fixed;
 	background-repeat:repeat;
@@ -15,7 +15,9 @@ background-image: url(../images/SAJT_LAJK_kopia.jpg);
   font: 400 14px/28px "Roboto", sans-serif;
   -webkit-text-size-adjust: none;
 }
-
+body p{
+/*	font-weight: 500;*/
+}
 img {
   max-width: 100%;
   height: auto;
@@ -226,11 +228,14 @@ p + .btn_wr {
 						Components
 =========================================================*/
 /*==================     Brand     ======================*/
+
 .brand {
-  display: inline-block;
+/*  display: inline-block;*/
+/*	display: flex;*/
+/*	flex-flow: row;*/
 }
 .brand_name {
-  display: inline-block;
+/*  display: inline-block;*/
   overflow: hidden;
   font-weight: 700;
   font-size: 55px;
@@ -238,43 +243,7 @@ p + .btn_wr {
 /*  color: #5ab7de;*/
   vertical-align: bottom;
 }
-.popup-with-form{
-	float: right;
-/*	clear:none;*/
-/*	margin: auto;*/
-/*	background: #62bfe6;*/
-	border: 1px solid #333;
-	color: #333;
-	border-radius: 50px;
-	padding: 3px 17px ;
-}
-.popup-with-form:hover{
-	color: #fff;
-	background: #333;
-	transition: .4s;
-}
-.white-popup-block {
 
-  position: relative;
-  background: #FFF;
-  padding: 20px;
-  width: auto;
-  max-width: 500px;
-  margin: 20px auto;
-}
-#test-form .submit_btn{
-	background: #62bfe6;
-	color: #fff;
-	border-radius: 50px;
-	padding: 3px 10px ;
-}
-.brand_slogan {
-  display: inline-block;
-  padding-left: 10px;
-  padding-bottom: 5px;
-  font-size: 24px;
-  vertical-align: bottom;
-}
 .brand a:hover {
   color: inherit;
 }
@@ -338,8 +307,8 @@ p + .btn_wr {
   line-height: 100px;
   font-size: 52px;
   text-align: center;
-  color: #fff;
-  background: #62bfe6;
+  color: #FDF359;
+  background: #434547;
   -moz-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   -webkit-transition: 0.3s all ease;
@@ -372,6 +341,43 @@ p + .btn_wr {
 }
 
 /*==================    Buttons    ======================*/
+.btn_form{
+/*	float: right;*/
+/*	clear:none;*/
+/*	margin: auto;*/
+/*	background: #62bfe6;*/
+	border: 1px solid #434547;
+	background: #FDF359;
+	color: #434547;
+/*	border-radius: 50px;*/
+/*	padding: 5px 15px ;*/
+}
+.btn_form:hover{
+	color: #fff;
+	background: #434547;
+	transition: .4s;
+}
+.white-popup-block {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+#test-form .submit_btn{
+	background: #62bfe6;
+	color: #fff;
+	border-radius: 50px;
+	padding: 3px 10px ;
+}
+.brand_slogan {
+  display: inline-block;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-size: 24px;
+  vertical-align: bottom;
+}
 .btn,
 .btn2 {
   display: inline-block;
@@ -388,16 +394,20 @@ p + .btn_wr {
 }
 .btn:hover,
 .btn2:hover {
-  background: #4ab5e2;
+  background: #FDF359;
+	border: 1px solid #434547;
+}
+.btn:hover{
+	color: #434547;
 }
 .btn:active,
 .btn2:active {
-  background: #22a1d7;
+  background: #FDF359;
 }
 
 .btn {
   color: #fff;
-  background: #62bfe6;
+  background: #434547;
 }
 
 .btn2 {
@@ -474,7 +484,7 @@ p + .btn_wr {
   padding: 25px 29px 20px;
   float: left;
   color: #fff;
-  background: #62bfe6;
+  background: #434547;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -519,13 +529,13 @@ p + .btn_wr {
   right: 30px;
 }
 .banner li:nth-child(1) {
-  background: #57aacd;
+  background: #434547;
 }
 .banner li:nth-child(2) {
-  background: #55b0d6;
+  background: #434547;
 }
 .banner li:nth-child(3) {
-  background: #5bb7de;
+  background: #434547;
 }
 .banner h3 {
   color: #fff;
@@ -632,9 +642,9 @@ blockquote q:before {
   left: 0;
   padding-right: 7px;
   content: "\f10d";
-  color: #62bfe6;
+/*  color: #62bfe6;*/
   font-family: "FontAwesome";
-  font-size: 34px;
+  font-size: 30px;
   line-height: 28px;
   vertical-align: top;
   z-index: 10;
@@ -642,7 +652,7 @@ blockquote q:before {
 blockquote cite {
   display: block;
   font-size: 16px;
-  color: #62bfe6;
+  color: #333;
 }
 blockquote cite a:hover {
   text-decoration: underline;
@@ -731,7 +741,7 @@ blockquote p + cite {
   }
 }
 .contact-list a:hover {
-  color: #62bfe6;
+  color:#FDF359;
 }
 
 .contact-list2 {
@@ -739,7 +749,7 @@ blockquote p + cite {
   padding-bottom: 2px;
 }
 .contact-list2 h3 {
-  color: #42acda;
+/*  color: #42acda;*/
 }
 .contact-list2 a[href^="callto:"] {
   font-size: 24px;
@@ -799,21 +809,21 @@ table tr:nth-child(even) {
   margin-top: 7px;
   padding: 30px 30px 25px;
   color: #fff;
-  background: #57aacd;
+  background: #434547;
 }
 .info-box dt,
 .info-box dd {
   display: inline-block;
 }
 .info-box hr {
-  background: #fff;
+  background: #FDF359;
 }
 .info-box [class^="fa-"]:before {
   padding-right: 13px;
   font-size: 54px;
 }
 .info-box h2 {
-  color: #fff;
+  color: #FDF359;
   position: relative;
   padding-left: 65px;
 }
@@ -891,7 +901,7 @@ table tr:nth-child(even) {
 /*  border-right: 1px solid #4bb0db;*/
 }
 .sf-menu > li.active > a {
-  color: #fff;
+/*  color: #fff;*/
 /*  background: #5ab7de;*/
 /*  border-right: 1px solid #4bb0db;*/
 }
@@ -968,6 +978,17 @@ table tr:nth-child(even) {
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
 }
+.rd-mobilemenu_ul:before{
+	content: "";
+	position: absolute;
+	background-image: url(../images/LOGO_Layk.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 200px;
+	height: 230px;
+	bottom:10%;
+	left: 20px;
+}
 .rd-mobilemenu.active {
   right: 0;
 }
@@ -979,8 +1000,8 @@ table tr:nth-child(even) {
   bottom: -56px;
   width: 240px;
   padding: 132px 0 76px;
-  color: #666;
-  background: #FFF;
+  color: #999;
+  background: #434547;
   font-size: 14px;
   line-height: 20px;
   overflow: auto;
@@ -1017,8 +1038,8 @@ table tr:nth-child(even) {
   color: #2d2d2d;
 }
 .rd-mobilemenu_ul a:hover {
-  background: #62bfe6;
-  color: #FFF;
+  background: #FDF359;
+  color:#2d2d2d;
 }
 .rd-mobilemenu_ul a .rd-submenu-toggle {
   position: absolute;
@@ -1076,7 +1097,7 @@ table tr:nth-child(even) {
   left: 0;
   right: 0;
   height: 56px;
-  background: #FFF;
+  background: #FDF359;
   color: #000;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -1245,43 +1266,60 @@ header {
   background: #fff;
 	
 }
+.container_wrap{
+		display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between
+}
+.contakt_header{
+	display: flex;
+	flex-flow: column;
+	align-items: flex-end;
+}
 header .brand {
-  float: left;
+/*  float: left;*/
 }
 header a[href^="callto:"],
 header .container > p {
   clear: right;
   float: right;
 }
-header a[href^="callto:"] {
-  margin-top: 7px;
-  position: relative;
-  font-size: 24px;
+header a{
+/*  margin-top: 7px;*/
+/*  position: relative;*/
+/*  font-size: 24px;*/
   color: #777777;
 }
+/*
 header a[href^="callto:"]:before {
   position: absolute;
   top: -4px;
   left: -44px;
   font-size: 34px;
-/*  color: #6bc7ed;*/
+  color: #6bc7ed;
 	color: #333;
 }
+*/
+/*
 header a[href^="callto:"]:hover {
   color: map;
 }
+*/
+/*
 header a[href^="callto:"] + p {
   margin-top: 7px;
 }
+*/
 @media (max-width: 979px) {
   header {
     text-align: center;
   }
+	
   header .brand, header a[href^="callto:"], header .container > p {
-    float: none;
+/*    float: none;*/
   }
   header .brand {
-    display: block;
+/*    display: block;*/
   }
   header .brand_slogan {
     padding-left: 0;
@@ -1295,8 +1333,42 @@ header a[href^="callto:"] + p {
   header {
     text-align: center;
   }
+	.container_wrap{
+		flex-flow: column;
+		justify-content: center;
+	}
+	.contakt_header{
+		align-items: center;
+	}
 }
 
+/*========================================================
+					 MENU
+=========================================================*/
+.sf-menu > li > a {
+  color: #fff;
+}
+.sf-menu > li.sfHover > a, .sf-menu > li > a:hover {
+  background: #FDF359 ;
+  border-right: 1px solid #1f1f1f;
+	color: #333;
+}
+.sf-menu > li.active > a {
+  background: #FDF359 ;
+  border-right: 1px solid #1f1f1f;
+	color: #333;
+}
+
+.sf-menu ul > li > a {
+  color: #00A99D;
+}
+.sf-menu ul > li.sfHover > a, .sf-menu ul > li > a:hover {
+  color: #333;
+}
+
+.sf-menu > li > ul > li > .sf-with-ul:before {
+  color: #00A99D;
+}
 /*========================================================
 					 CONTENT  Section
 =========================================================*/
@@ -1315,10 +1387,12 @@ main p + a[href^="mailto:"]:hover {
   text-decoration: underline;
 }
 
+/*
 a[href^="callto:"]:hover {
 	color: #434547;
-/*  color: #62bfe6;*/
+  color: #62bfe6;
 }
+*/
 
 /*
 .video {
@@ -1389,10 +1463,10 @@ a[href^="callto:"]:hover {
 =========================================================*/
 footer {
   color: #888a8c;
-/*  background: #434547;*/
+  background: #434547;
 }
 footer section + section .container {
-  border-top: 1px solid #888a8c;
+  border-top: 1px solid #FDF359;
 }
 footer .copyright {
   padding-top: 21px;

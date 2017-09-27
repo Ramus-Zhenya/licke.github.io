@@ -71,7 +71,8 @@ hr {
 
 .btn:hover,
 .btn2:hover {
-  background: #1f1f1f;
+  background: #FDF359;
+	color: #333
 }
 .btn:active,
 .btn2:active {
@@ -169,19 +170,21 @@ footer section + section .container {
   color: #fff;
 }
 .sf-menu > li.sfHover > a, .sf-menu > li > a:hover {
-  background: #1f1f1f;
+  background: #FDF359 ;
   border-right: 1px solid #1f1f1f;
+	color: #333;
 }
 .sf-menu > li.active > a {
-  background: #1f1f1f;
+  background: #FDF359 ;
   border-right: 1px solid #1f1f1f;
+	color: #333;
 }
 
 .sf-menu ul > li > a {
   color: #00A99D;
 }
 .sf-menu ul > li.sfHover > a, .sf-menu ul > li > a:hover {
-  color: #777777;
+  color: #333;
 }
 
 .sf-menu > li > ul > li > .sf-with-ul:before {
