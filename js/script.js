@@ -139,16 +139,16 @@ include('js/jquery.easing.1.3.js');
               elementType: 'labels.text.fill',
               stylers: [{color: '#FDF359'}]
             },
-//            {
-//              featureType: 'poi.park',
-//              elementType: 'geometry',
-//              stylers: [{color: '#FDF359'}]
-//            },
-//            {
-//              featureType: 'poi.park',
-//              elementType: 'labels.text.fill',
-//              stylers: [{color: '#6b9a76'}]
-//            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#F8F295'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#FDF359'}]
+            },
             {
               featureType: 'road',
               elementType: 'geometry',

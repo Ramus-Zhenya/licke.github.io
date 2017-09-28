@@ -296,7 +296,7 @@ p + .btn_wr {
   background-size: cover;
 /*	-webkit-filter: grayscale(100%); */
 /*	-webkit-filter: sepia(100%);*/
-	-webkit-filter: blur(1px);
+/*	-webkit-filter: blur(1px);*/
 }
 .bg-image p {
   font-size: 16px;
@@ -521,7 +521,7 @@ p + .btn_wr {
   padding-bottom: 50px;
 }
 .fa{
-	width: 100px;
+	width: 70px;
 	height: auto;
 }
 /*
