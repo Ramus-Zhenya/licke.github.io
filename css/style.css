@@ -294,6 +294,9 @@ p + .btn_wr {
 .bg-image {
   background: url(../images/page-3_bg.jpg) center no-repeat;
   background-size: cover;
+/*	-webkit-filter: grayscale(100%); */
+/*	-webkit-filter: sepia(100%);*/
+	-webkit-filter: blur(1px);
 }
 .bg-image p {
   font-size: 16px;
@@ -1539,3 +1542,11 @@ text-shadow: -3px -3px 1px #999;
 
 
 
+
+.zag_like {
+	text-align: center;
+	color: #fff;
+	margin: 220px 0;
+	font-size: 8vw;
+		
+}
