@@ -298,6 +298,13 @@ p + .btn_wr {
 /*	-webkit-filter: sepia(100%);*/
 /*	-webkit-filter: blur(1px);*/
 }
+.bg-image .opaciy{
+	width: 100%;
+	height: 100%;
+	 margin-top: -32px;
+  margin-bottom:  -20px;
+	background: rgba(67, 69, 71,.8)
+}
 .bg-image p {
   font-size: 16px;
 }
@@ -728,7 +735,7 @@ blockquote p + cite {
   padding-bottom: 16px;
   font-size: 16px;
   line-height: 18px;
-  color: #62bfe6;
+/*  color: #62bfe6;*/
 }
 .marked-list li a:before {
   content: "\f00c";
@@ -1554,7 +1561,7 @@ text-shadow: -3px -3px 1px #999;
 
 .zag_like {
 	text-align: center;
-	color: #fff;
+	color: #FDF359;
 	margin: 220px 0;
 	font-size: 8vw;
 		
