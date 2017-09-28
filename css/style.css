@@ -70,7 +70,7 @@ time {
 .zag_like {
 	text-align: center;
 	color: #FDF359;
-	margin: 220px 0;
+	margin: 270px 0;
 	font-size: 8vw;
 		
 }
@@ -307,6 +307,7 @@ p + .btn_wr {
 .bg-image {
   background: url(../images/page-3_bg.jpg) center no-repeat;
   background-size: cover;
+	background-position: 100% 45%
 /*	-webkit-filter: grayscale(100%); */
 /*	-webkit-filter: sepia(100%);*/
 /*	-webkit-filter: blur(1px);*/
