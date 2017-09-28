@@ -311,6 +311,8 @@ p + .btn_wr {
   font-size: 52px;
   text-align: center;
   color: #FDF359;
+	padding: 10px;
+	box-sizing: border-box;
   background: #434547;
   -moz-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
