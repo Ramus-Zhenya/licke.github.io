@@ -27,7 +27,7 @@
             map: {
                 x: 30.95,
                 y: 52.44,
-                zoom: 10
+                zoom: 13
             },
             locations: []
         };
