@@ -17,7 +17,7 @@
             mapClass: 'map_model',
             locationsClass: 'map_locations',
             marker: {
-                basic: 'images/gmap_marker.png',
+                basic: 'images/LOGO_Layk.png',
                 active: 'images/gmap_marker_active.png'
             },
             styles: []

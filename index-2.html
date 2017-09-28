@@ -7,7 +7,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-<!--    <link rel="stylesheet" href="css/colorScheme-1.css">-->
+
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" href="css/magnific-popup.css">
     <script src="js/jquery-migrate-1.2.1.js"></script><!--[if lt IE 9]>
@@ -41,13 +41,13 @@
 -->
           <div class="contakt_header"> 
           <a href="#" class="fa-phone">800-2345-6789</a>
-          <a class="btn_form" href="#test-form"><img width="100px" src="images/knopka_khochu.png"></a>
+          <a class="btn_form popup-with-form" href="#test-form">обратный звонок</a>
 
-<!-- form itself -->
+
 <form id="test-form" class="mfp-hide white-popup-block">
 	<h1>Form</h1>
 	<fieldset style="border:0;">
-<!--		<p>Lightbox has an option to automatically focus on the first input. It's strongly recommended to use <code>inline</code> popup type for lightboxes with form instead of <code>ajax</code> (to keep entered data if the user accidentally refreshed the page).</p>-->
+
 		<ol>
 			<li>
 				<label for="name"></label>
@@ -109,20 +109,66 @@
           <div class="container">
             <h2>The best business services</h2>
             <div class="row off2">
-              <div class="grid_4"><img src="images/page-3_img01.jpg" alt="">
-                <h3>Fusce euismod consequat ante</h3>
-                <p>Curabitur facilisis pellentesque pharetra. Donec justo urna, malesuada a viverra ac, pellentesque vitae nunc. Aenean ac leo eget nunc fringilla a non nulla! Nunc orci mi, venenatis quis ultrices vitae, congue non nibh.</p><a href="#" class="btn">Read more</a>
+              <div class="grid_4">
+               <img src="images/page-3_img01.jpg" alt="">
+               
+                <h3>Fusce euismod ante</h3>
+                
+                <p>Curabitur facilisis pellentesque pharetra. Donec justo urna, malesuada a viverra ac, pellentesque vitae nunc. Aenean ac leo eget nunc fringilla a non nulla! Nunc orci mi, venenatis quis ultrices vitae, congue non nibh.</p>
+                <a href="#test-form" class="btn popup-with-form">Заказать</a>
+<!--                <form id="test-form" class="mfp-hide white-popup-block">-->
+<!--	<h1>Form</h1>-->
+<!--	<fieldset style="border:0;">-->
+<!--		<p>Lightbox has an option to automatically focus on the first input. It's strongly recommended to use <code>inline</code> popup type for lightboxes with form instead of <code>ajax</code> (to keep entered data if the user accidentally refreshed the page).</p>-->
+<!--
+		<ol>
+			<li>
+				<label for="name"></label>
+				<input id="name" name="name" type="text" placeholder="Как вас завут" required="">
+			</li>
+			<li>
+				<label for="email"></label>
+				<input id="email" name="email" type="email" placeholder="example@domain.com" required="">
+			</li>
+			<li>
+				<label for="phone"></label>
+				<input id="phone" name="phone" type="tel" placeholder="Ваш номер тел." required="">
+			</li>
+			<li>
+				<label for="textarea">сообщение</label><br>
+				<textarea id="textarea"></textarea>
+			</li>
+		</ol>
+	</fieldset>
+	<button class="submit_btn">отправить</button>
+	
+</form>
+-->
+                
               </div>
-              <div class="grid_4"><img src="images/page-3_img02.jpg" alt="">
-                <h3>Ut pharetra augue nec viverra</h3>
-                <p>Donec justo urna, malesuada a viverra ac, pellentesque vitae nunc. Aenean ac leo eget nunc fringilla a non nulla! Nunc orci mi, venenatis quis ultrices vitae, congue non nibh. Nulla bibendum, justo eget ultrices vestibulum.</p><a href="#" class="btn">Read more</a>
+              
+              
+              <div class="grid_4">
+               <img src="images/page-3_img02.jpg" alt="">
+               
+                <h3>Ut pharetra augue nec</h3>
+                
+                <p>Donec justo urna, malesuada a viverra ac, pellentesque vitae nunc. Aenean ac leo eget nunc fringilla a non nulla! Nunc orci mi, venenatis quis ultrices vitae, congue non nibh. Nulla bibendum, justo eget ultrices vestibulum.</p><a href="#test-form" class="btn popup-with-form">Заказать</a>
               </div>
-              <div class="grid_4"><img src="images/page-3_img03.jpg" alt="">
+              
+              
+              <div class="grid_4">
+               <img src="images/page-3_img03.jpg" alt="">
+               
                 <h3>Donec porta diam eu massa</h3>
-                <p>Aenean ac leo eget nunc fringilla a non nulla! Nunc orci mi, venenatis quis ultrices vitae, congue non nibh. Nulla bibendum, justo eget ultrices vestibulum erat tortor venenatis risus, sit amet cursus dui augue a arcu.</p><a href="#" class="btn">Read more</a>
+                
+                <p>Aenean ac leo eget nunc fringilla a non nulla! Nunc orci mi, venenatis quis ultrices vitae, congue non nibh. Nulla bibendum, justo eget ultrices vestibulum erat tortor venenatis risus, sit amet cursus dui augue a arcu.
+                </p>
+                <a href="#test-form" class="btn popup-with-form">Заказать</a>
               </div>
             </div>
             <hr>
+<!--
             <div class="row">
               <div class="grid_4"><img src="images/page-3_img04.jpg" alt="">
                 <h3>Proin dictum elementum velit</h3>
@@ -137,6 +183,7 @@
                 <p>Integer sodales tempor lectus; sit amet dictum metus pharetra nec. Fusce bibendum dapibus pretium. Nunc eu sem vitae lacus laoreet elementum. Nulla facilisi. Phasellus ullamcorper elementum est, id pretium turpis.</p><a href="#" class="btn">Read more</a>
               </div>
             </div>
+-->
           </div>
         </section>
         <section class="well1 ins4 bg-image">
@@ -274,5 +321,28 @@
       </footer>
     </div>
     <script src="js/script.js"></script>
+           <script src="js/jquery.magnific-popup.min.js"></script>
+    
+    <script type="text/javascript">
+	  $(document).ready(function() {
+	  $('.popup-with-form').magnificPopup({
+		type: 'inline',
+		preloader: false,
+		focus: '#name',
+
+		// When elemened is focused, some mobile browsers in some cases zoom in
+		// It looks not nice, so we disable it:
+		callbacks: {
+			beforeOpen: function() {
+				if($(window).width() < 1700) {
+					this.st.focus = false;
+				} else {
+					this.st.focus = '#name';
+				}
+			}
+		}
+	});
+});
+</script>
   </body>
 </html>

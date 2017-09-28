@@ -10,10 +10,6 @@
     <link rel="stylesheet" href="css/google-map.css">
     <link rel="stylesheet" href="css/mailform.css">
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUv5KiiNZ_a62GMOdP5QMRjGt-9LmM5Gw&callback=myMap"></script>
-<!--
- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy83z3hgdkefu0BQJviNUOhW1hcFYwOQ4&callback=initMap"
-    async defer></script>
--->
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" href="css/magnific-popup.css">
     <script src="js/jquery-migrate-1.2.1.js"></script><!--[if lt IE 9]>
@@ -39,33 +35,34 @@
             <h1 class="brand_name"><a href="#"><img width="60px" src="images/LOGO_Layk.png" >Like</a></h1>
             <p class="brand_slogan">premium AUTO_SCHOOL </p>
           </div>
-<!--
           <div class="">
           
-          	<a href="#"><img width="200px" src="images/knopka_khochu.png"></a>
+<!--          	<a href="#"><img width="200px" src="images/knopka_khochu.png"></a>-->
           </div>
--->
           <div class="contakt_header"> 
           <a href="#" class="fa-phone">800-2345-6789</a>
-          <a class="btn_form" href="#test-form"><img width="100px" src="images/knopka_khochu.png"></a>
+          <a class="btn_form popup-with-form" href="#test-form">
+          <img width="100px" src="images/knopka_khochu.png"></a>
 
-<!-- form itself -->
+
 <form id="test-form" class="mfp-hide white-popup-block">
 	<h1>Form</h1>
 	<fieldset style="border:0;">
-<!--		<p>Lightbox has an option to automatically focus on the first input. It's strongly recommended to use <code>inline</code> popup type for lightboxes with form instead of <code>ajax</code> (to keep entered data if the user accidentally refreshed the page).</p>-->
-		<ol>
+
+		<ol >
 			<li>
-				<label for="name"></label>
-				<input id="name" name="name" type="text" placeholder="Как вас завут" required="">
+				<label for="name">Введите ваше имя</label>
+				<input id="name" name="name" type="text" placeholder="имя" required="">
 			</li>
+<!--
 			<li>
-				<label for="email"></label>
+				<label for="email">Выш email</label>
 				<input id="email" name="email" type="email" placeholder="example@domain.com" required="">
 			</li>
+-->
 			<li>
-				<label for="phone"></label>
-				<input id="phone" name="phone" type="tel" placeholder="Ваш номер тел." required="">
+				<label for="phone">Ваш номер тел.</label>
+				<input id="phone" name="phone" type="tel" placeholder="+375 25 356789" required="">
 			</li>
 			<li>
 				<label for="textarea">сообщение</label><br>
@@ -92,19 +89,6 @@
                 <li><a href="index.html">Home</a>
                 </li>
                 <li><a href="index-1.html">About</a>
-                 <!--  <ul>
-                    <li><a href="#">Lorem ipsum dolor</a></li>
-                    <li><a href="#">Conse ctetur adipisicing</a></li>
-                    <li><a href="#">Elit sed do eiusmod
-                        <ul>
-                          <li><a href="#">Lorem ipsum</a></li>
-                          <li><a href="#">Conse adipisicing</a></li>
-                          <li><a href="#">Sit amet dolore</a></li>
-                        </ul></a></li>
-                    <li><a href="#">Incididunt ut labore</a></li>
-                    <li><a href="#">Et dolore magna</a></li>
-                    <li><a href="#">Ut enim ad minim</a></li>
-                  </ul> -->
                 </li>
                 <li><a href="index-2.html">Services</a>
                 </li>
@@ -236,6 +220,28 @@
       </footer>
     </div>
     <script src="js/script.js"></script>
+           <script src="js/jquery.magnific-popup.min.js"></script>
     
+    <script type="text/javascript">
+	  $(document).ready(function() {
+	  $('.popup-with-form').magnificPopup({
+		type: 'inline',
+		preloader: false,
+		focus: '#name',
+
+		// When elemened is focused, some mobile browsers in some cases zoom in
+		// It looks not nice, so we disable it:
+		callbacks: {
+			beforeOpen: function() {
+				if($(window).width() < 1700) {
+					this.st.focus = false;
+				} else {
+					this.st.focus = '#name';
+				}
+			}
+		}
+	});
+});
+</script>
   </body>
 </html>

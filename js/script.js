@@ -119,17 +119,14 @@ include('js/jquery.easing.1.3.js');
 (function ($) {
     var o = document.getElementById("google-map");
     if (o) {
-        include('//maps.google.com/maps/api/js?sensor=false');
+//        include('//maps.google.com/maps/api/js?sensor=false');
         include('js/jquery.rd-google-map.js');
 
         $(document).ready(function () {
             var o = $('#google-map');
             if (o.length > 0) {
                 o.googleMap({
-                    styles:[
-//						{"featureType":"water","elementType":"all","stylers":[{"hue":"#76aee3"},{"saturation":38},{"lightness":-11},{"visibility":"on"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"hue":"#000000"},{"saturation":-47},{"lightness":-17},{"visibility":"on"}]},{"featureType":"poi.park","elementType":"all","stylers":[{"hue":""},{"saturation":17},{"lightness":-2},{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"hue":""},{"saturation":-100},{"lightness":13},{"visibility":"on"}]},{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"hue":"#5f5855"},{"saturation":6},{"lightness":-31},{"visibility":"on"}]},{"featureType":"road.local","elementType":"all","stylers":[{"hue":""},{"saturation":-100},{"lightness":100},{"visibility":"simplified"}]},{"featureType":"water","elementType":"all","stylers":[]}
-						
-						{elementType: 'geometry', stylers: [{color: '#434547'}]},
+                    styles:[{elementType: 'geometry', stylers: [{color: '#434547'}]},
             {elementType: 'labels.text.stroke', stylers: [{color: '#434547'}]},
             {elementType: 'labels.text.fill', stylers: [{color: '#434547'}]},
             {

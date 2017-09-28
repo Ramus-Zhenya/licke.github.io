@@ -41,13 +41,13 @@
 -->
           <div class="contakt_header"> 
           <a href="#" class="fa-phone">800-2345-6789</a>
-          <a class="btn_form" href="#test-form"><img width="100px" src="images/knopka_khochu.png"></a>
+          <a class="btn_form popup-with-form" href="#test-form"><img width="100px" src="images/knopka_khochu.png"></a>
 
-<!-- form itself -->
+
 <form id="test-form" class="mfp-hide white-popup-block">
 	<h1>Form</h1>
 	<fieldset style="border:0;">
-<!--		<p>Lightbox has an option to automatically focus on the first input. It's strongly recommended to use <code>inline</code> popup type for lightboxes with form instead of <code>ajax</code> (to keep entered data if the user accidentally refreshed the page).</p>-->
+
 		<ol>
 			<li>
 				<label for="name"></label>
@@ -243,5 +243,28 @@
       </footer>
     </div>
     <script src="js/script.js"></script>
+           <script src="js/jquery.magnific-popup.min.js"></script>
+    
+    <script type="text/javascript">
+	  $(document).ready(function() {
+	  $('.popup-with-form').magnificPopup({
+		type: 'inline',
+		preloader: false,
+		focus: '#name',
+
+		// When elemened is focused, some mobile browsers in some cases zoom in
+		// It looks not nice, so we disable it:
+		callbacks: {
+			beforeOpen: function() {
+				if($(window).width() < 1700) {
+					this.st.focus = false;
+				} else {
+					this.st.focus = '#name';
+				}
+			}
+		}
+	});
+});
+</script>
   </body>
 </html>
