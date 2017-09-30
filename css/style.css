@@ -304,6 +304,13 @@ p + .btn_wr {
   background: #f5f5f5;
 }
 
+
+
+
+
+
+
+
 .bg-image {
   background: url(../images/page-3_bg.jpg) center no-repeat;
   background-size: cover;
@@ -317,7 +324,7 @@ p + .btn_wr {
 	height: 100%;
 	 margin-top: -32px;
   margin-bottom:  -20px;
-	background: rgba(67, 69, 71,.8)
+	background: rgba(67, 69, 71,.8);
 }
 .bg-image p {
   font-size: 16px;
