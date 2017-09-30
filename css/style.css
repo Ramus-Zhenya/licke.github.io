@@ -1303,8 +1303,8 @@ table tr:nth-child(even) {
   z-index: 20;
 }
 .toTop:hover {
-  color: #fff;
-  background: #62bfe6;
+  color: #333;
+  background: #FDF359;
   text-decoration: none;
 }
 
